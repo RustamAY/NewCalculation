@@ -5,7 +5,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class gehBrenstofe extends JFrame {
+public class GehBrenstofe extends JFrame {
     private String heizVal;
 
     public JLabel aggrValue, massValue;

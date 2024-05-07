@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class DBUtils {
-    private static String url = "jdbc:h2;mem;test:INIT=RUNSCRIPT FROM 'classpath:init.sql'";
+    private static String url = "jdbc:h2:mem:test;INIT=RUNSCRIPT FROM 'classpath:init.sql'";
     private static String userName = "sa";
     private static String password = "";
 
